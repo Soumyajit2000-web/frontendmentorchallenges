@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Screenshot
 
-![]()
+![Desktop View](https://soumyajit2000-web.github.io/frontendmentorchallenges/3-column-preview-card-component/screenshot/desktop_view.jpg)
 
 ### Links
 
