@@ -18,7 +18,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Click Here](https://soumyajit2000-web.github.io/frontendmentorchallenges/3-column-preview-card-component/index.html)
 
 ## My process
 
