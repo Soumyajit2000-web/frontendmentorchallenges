@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Click Here]()
-- Live Site URL: [Click Here]()
+- Live Site URL: [Click Here](https://soumyajit2000-web.github.io/frontendmentorchallenges/stats-preview-card-component-main/index.html)
 
 ## My process
 
