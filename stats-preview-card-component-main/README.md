@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop View]()
+![Desktop View](https://soumyajit2000-web.github.io/frontendmentorchallenges/stats-preview-card-component-main/screenshot/screenshot-desktop.jpg)
 
 ### Links
 
