@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click Here]()
+- Solution URL: [Click Here](https://github.com/Soumyajit2000-web/frontendmentorchallenges/tree/main/stats-preview-card-component-main)
 - Live Site URL: [Click Here](https://soumyajit2000-web.github.io/frontendmentorchallenges/stats-preview-card-component-main/index.html)
 
 ## My process
