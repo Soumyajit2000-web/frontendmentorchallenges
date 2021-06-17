@@ -14,3 +14,8 @@ Here are my solutions to some challenges of Frontend mentor.
 [Live Site](https://soumyajit2000-web.github.io/frontendmentorchallenges/blogr-landing-page-main/index.html)
 
 [Codes](https://github.com/Soumyajit2000-web/frontendmentorchallenges/blob/main/blogr-landing-page-main/index.html)
+
+# Solution 3: Stats Preview Card Component
+[Live Site](https://soumyajit2000-web.github.io/frontendmentorchallenges/stats-preview-card-component-main/index.html)
+
+[Codes](https://github.com/Soumyajit2000-web/frontendmentorchallenges/blob/main/blogr-landing-page-main/index.html)
