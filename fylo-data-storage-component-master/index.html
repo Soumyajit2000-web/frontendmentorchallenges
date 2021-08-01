@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      color: white;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    .attribution a {
+      color: hsl(228, 28%, 68%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="left">
+      <div class="logo">
+        <img src="images/logo.svg" alt="Logo">
+      </div>
+      <div class="icons">
+        <div class="icon" id="document">
+          <img src="images/icon-document.svg" alt="">
+        </div>
+        <div class="icon" id="folder">
+          <img src="images/icon-folder.svg" alt="">
+        </div>
+        <div class="icon" id="upload">
+          <img src="images/icon-upload.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="right_outer">
+      <div class="right">
+        <div class="text">
+          <p>You’ve used <span>815 GB</span> of your storage</p>
+        </div>
+        <div class="bar">
+          <div class="progress_bar_outer">
+            <div class="progress_bar_inner">
+              <div></div>
+              <div class="dot"></div>
+            </div>
+          </div>
+          <div class="values">
+            <p>0 GB</p>
+            <p>1000 GB</p>
+          </div>
+        </div>
+      </div>
+      <div class="hover">
+        <span>185 </span> GB Left
+      </div>
+    </div>
+
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Soumyajit Das</a>.
+  </div>
+</body>
+
+</html>

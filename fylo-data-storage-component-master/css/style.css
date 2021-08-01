@@ -1,0 +1,216 @@
+:root{
+    --Pale_Blue: hsl(243, 100%, 93%);
+    --Grayish_Blue: hsl(229, 7%, 55%);
+    --Dark_Blue: hsl(228, 56%, 26%);
+    --Very_Dark_Blue: hsl(229, 57%, 11%);
+    --gradient1: hsl(6, 100%, 80%);
+    --gradient2: hsl(335, 100%, 65%);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('../images/bg-mobile.png');
+    background-size: cover;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left{
+    width: 85%;
+    height: 200px;
+    background-color: var(--Dark_Blue);
+    border-radius: 10px 100px 10px 10px;
+    
+}
+
+.logo{
+    margin-top: 38px;
+    margin-left: 60px;
+    margin-bottom: 25px;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: 65px 65px 65px;
+    margin-left: 60px;
+}
+
+.icon{
+    background-color: var(--Very_Dark_Blue);
+    height: 50px;
+    width: 50px;
+    /* margin: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.right_outer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+    width: 85%;
+    margin-top: 10px;
+    height: 150px;
+    background-color: var(--Dark_Blue);
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    color: var(--Pale_Blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text span{
+    font-weight: 900;
+}
+
+.hover{
+    background-color: white;
+    width: 190px;
+    height: 81px;
+    border-radius: 10px;
+    color: var(--Grayish_Blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 800;
+    position: relative;
+    top: -25px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.bar{
+    width: 80%;
+}
+.progress_bar_outer{
+    width: 100%;
+    height: 17px;
+    background-color: var(--Very_Dark_Blue);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.progress_bar_inner{
+    background: var(--gradient1);
+    background: linear-gradient(90deg, var(--gradient1) 0%, var(--gradient2) 100%);
+    height: 100%;
+    width: 81.5%;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.dot{
+    height: 70%;
+    width: 12px;
+    border-radius: 100px;
+    background-color: white;
+    /* position: relative;
+    top: 3px;
+    left: 251px;
+    right: -251px; */
+    margin-right: 2px;
+}
+
+.values{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.values p{
+    font-weight: 700;
+}
+
+.hover span{
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+@media screen and (min-width: 1000px){
+    body{
+        background: url('../images/bg-desktop.png') no-repeat var(--Very_Dark_Blue);
+        /* background-position: bottom; */
+        background-size: contain;
+        background-position-y: 120%;
+    }
+
+    .container{
+        flex-direction: row;
+
+    }
+
+    .left{
+        width: 370px;
+    }
+
+    .right_outer{
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        height: 350px;
+        /* align-items: center;
+        justify-content: center; */
+    }
+
+    .right{
+        width: 700px;
+        margin-left: 30px;
+        margin-bottom: -120px;
+    }
+
+    .hover{
+        /* display: none; */
+        top: -27%;
+        right: -29%;
+        border-bottom-right-radius: 0px;
+    }
+
+    .hover::after{
+        content: " ";
+        position: absolute;
+        top: 100%;
+        left: 100%;
+        margin-left: -24px;
+        border-width: 12px;
+        border-style: solid;
+        border-color: white white #ffffff00 transparent;
+    }
+
+    .text{
+        width: 80%;
+    }
+
+    .text p{
+        text-align: left;
+    }
+
+}
