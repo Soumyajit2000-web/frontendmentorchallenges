@@ -39,7 +39,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS grid
-- Mobile-first workflow
+- Desktop-first workflow
 
 ### What I learned
 
