@@ -19,3 +19,8 @@ Here are my solutions to some challenges of Frontend mentor.
 [Live Site](https://soumyajit2000-web.github.io/frontendmentorchallenges/stats-preview-card-component-main/index.html)
 
 [Codes](https://github.com/Soumyajit2000-web/frontendmentorchallenges/blob/main/stats-preview-card-component-main/index.html)
+
+# Solution 4: Flyo Data Storage Component
+[Live Site](https://soumyajit2000-web.github.io/frontendmentorchallenges/fylo-data-storage-component-master/index.html)
+
+[Codes](https://github.com/Soumyajit2000-web/frontendmentorchallenges/tree/main/fylo-data-storage-component-master)
