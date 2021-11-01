@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![https://soumyajit2000-web.github.io/frontendmentorchallenges/time-tracking-dashboard-main/screenshot-soumyajit2000-web.github.io-2021.11.02-00_40_25.jpg](https://soumyajit2000-web.github.io/frontendmentorchallenges/time-tracking-dashboard-main/screenshot-soumyajit2000-web.github.io-2021.11.02-00_40_25.jpg)
 
 
 ### Links
