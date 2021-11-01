@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="mainContainer">
+
+    <div class="nameContainer">
+      <div class="upper">
+        <div class="profilePic">
+          <img src="images/image-jeremy.png" alt="">
+        </div>
+        <div class="name">
+          Report for
+          <div>
+            <p>Jeremy</p>
+            <p>Robson</p>
+          </div>
+        </div>
+      </div>
+      <div class="lower">
+        <p id="daily">Daily</p>
+        <p id="weekly" class="active">Weekly</p>
+        <p id="monthly">Monthly</p>
+      </div>
+    </div>
+
+
+    <div class="card" id="work">
+      <div class="cardbody">
+        <div class="card_header">
+          <p>Work</p>
+          <div>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+        </div>
+        <div class="data">
+          <p class="time" id="work-time">32hrs</p>
+          <p class="previous-time" id="work-preTime">Last Week - 36hrs</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="play">
+      <div class="cardbody">
+        <div class="card_header">
+          <p>Play</p>
+          <div>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+        </div>
+        <div class="data">
+          <p class="time" id="play-time">10hrs</p>
+          <p class="previous-time" id="play-preTime">Last Week - 8hrs</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="study">
+      <div class="cardbody">
+        <div class="card_header">
+          <p>Study</p>
+          <div>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+        </div>
+        <div class="data">
+          <p class="time" id="study-time">4hrs</p>
+          <p class="previous-time" id="study-preTime">Last Week - 7hrs</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="exercise">
+      <div class="cardbody">
+        <div class="card_header">
+          <p>Exercise</p>
+          <div>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+        </div>
+        <div class="data">
+          <p class="time" id="exercise-time">4hrs</p>
+          <p class="previous-time" id="exercise-preTime">Last Week - 5hrs</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="social">
+      <div class="cardbody">
+        <div class="card_header">
+          <p>Social</p>
+          <div>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+        </div>
+        <div class="data">
+          <p class="time" id="social-time">5hrs</p>
+          <p class="previous-time" id="social-preTime">Last Week - 10hrs</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="selfCare">
+      <div class="cardbody">
+        <div class="card_header">
+          <p>Self Care</p>
+          <div>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+        </div>
+        <div class="data">
+          <p class="time" id="selfCare-time">2hrs</p>
+          <p class="previous-time" id="selfCare-preTime">Last Week - 2hrs</p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Soumyajit Das</a>.
+  </div>
+
+  <script src="script/script.js"></script>
+</body>
+
+</html>
