@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here](https://soumyajit2000-web.github.io/frontendmentorchallenges/time-tracking-dashboard-main/index.html)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Click here](https://soumyajit2000-web.github.io/frontendmentorchallenges/time-tracking-dashboard-main/index.html)
+- Solution URL: [Click here](https://github.com/Soumyajit2000-web/frontendmentorchallenges/tree/main/time-tracking-dashboard-main)
 
 ## My process
 
