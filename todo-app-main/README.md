@@ -40,9 +40,11 @@ Users should be able to:
 ![](https://soumyajit2000-web.github.io/frontendmentorchallenges/todo-app-main/Screenshots/screenshot-todo-app-desktop-light.jpg)
 
 - Mobile-Dark
+
 ![](https://soumyajit2000-web.github.io/frontendmentorchallenges/todo-app-main/Screenshots/screenshot-todo-app-mobile-dark.jpg)
 
 - Mobile-Light
+
 ![](https://soumyajit2000-web.github.io/frontendmentorchallenges/todo-app-main/Screenshots/screenshot-todo-app-mobile-light.jpg)
 
 
