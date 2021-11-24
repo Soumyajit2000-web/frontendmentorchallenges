@@ -1,0 +1,30 @@
+.titleComp{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+.toggleMode:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px){
+  .titleComp{
+      width: 70vw;
+  }
+}
+
+@media screen and (max-width: 768px){
+    .titleComp{
+        width: 90vw;
+    }
+}

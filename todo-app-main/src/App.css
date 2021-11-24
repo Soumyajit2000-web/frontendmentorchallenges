@@ -1,0 +1,43 @@
+.mainContainer{
+  min-height: 100vh;
+  background: hsl(235, 21%, 11%) url("./images/bg-desktop-dark.jpg") no-repeat;
+  background-size: contain;
+  padding: 10rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainContainer-light{
+  min-height: 100vh;
+  background: hsl(236, 33%, 92%) url("./images/bg-desktop-light.jpg") no-repeat;
+  background-size: contain;
+  padding: 10rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px){
+  .mainContainer{
+    padding: 6rem 0rem;
+  }
+
+  .mainContainer-light{
+    padding: 6rem 0rem;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .mainContainer{
+    background: hsl(235, 21%, 11%) url("./images/bg-mobile-dark.jpg") no-repeat;
+    background-size: contain;
+    padding: 3rem 0rem;
+  }
+
+  .mainContainer-light{
+    background: hsl(236, 33%, 92%) url("./images/bg-mobile-light.jpg") no-repeat;
+    background-size: contain;
+    padding: 3rem 0rem;
+  }
+}

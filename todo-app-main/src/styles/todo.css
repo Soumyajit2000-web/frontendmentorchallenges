@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.todo{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+
+}
+
+.check{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border: 1px solid hsl(233, 14%, 35%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* background: linear-gradient(90deg, hsl(192, 100%, 67%) 0%, hsl(280, 87%, 65%) 100%); */
+}
+
+.check-light{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border: 1px solid hsl(236, 9%, 61%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.check-selected img{
+    width: 70%;
+}
+
+
+.check-selected {
+    visibility: visible;
+    border-radius: 50px;
+    background: linear-gradient(90deg, hsl(192, 100%, 67%) 0%, hsl(280, 87%, 65%) 100%);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check-deselected{
+    visibility: hidden;
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.task{
+    padding-left: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(234, 39%, 85%);
+    margin-right: auto;
+}
+
+.task-light{
+    padding-left: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(235, 19%, 35%);
+    margin-right: auto;
+}
+
+.task-completed{
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+
+.cross{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+
+.line{
+    width: 100%;
+    margin: auto;
+    height: 0.5px;
+    border-radius: 50px;
+    background-color: hsl(233, 14%, 35%);
+}
+
+.line-light{
+    width: 100%;
+    margin: auto;
+    height: 0.5px;
+    border-radius: 50px;
+    background-color: hsl(236, 9%, 61%);
+}
+
+.hoverOn{
+    visibility: visible;
+}

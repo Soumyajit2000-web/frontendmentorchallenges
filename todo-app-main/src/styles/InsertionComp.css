@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.insertComp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 50vw;
+    height: 50px;
+    background-color: hsl(235, 24%, 19%);
+    padding: 0px 20px;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+}
+
+.insertComp-light{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 50vw;
+    height: 50px;
+    background-color: hsl(236, 33%, 92%);
+    padding: 0px 20px;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border: 1px solid hsl(233, 14%, 35%);
+    cursor: pointer;
+}
+
+.circle-light{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border: 1px solid hsl(236, 9%, 61%);
+    cursor: pointer;
+}
+
+.input{
+    margin-left: 1rem;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.input-light{
+    margin-left: 1rem;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.input input{
+    background-color: hsl(235, 24%, 19%);
+    border: none;
+    border-color: transparent;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 90%;
+    width: 100%;
+    color: hsl(234, 39%, 85%);
+    padding: 1em;
+}
+
+.input-light input{
+    background-color:  hsl(236, 33%, 92%);
+    border: none;
+    border-color: transparent;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 90%;
+    width: 100%;
+    color: hsl(235, 19%, 35%);
+    padding: 1em;
+}
+
+@media screen and (max-width: 1024px){
+    .insertComp{
+        width: 70vw;
+    }
+
+    .insertComp-light{
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .insertComp{
+        width: 90vw;
+    }
+
+    .insertComp-light{
+        width: 90vw;
+    }
+}
