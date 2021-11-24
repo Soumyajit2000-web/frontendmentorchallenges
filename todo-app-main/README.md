@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here](https://your-solution-url.com)
+- Solution URL: [Click here](https://github.com/Soumyajit2000-web/frontendmentorchallenges/edit/main/todo-app-main)
 - Live Site URL: [Click here](https://todo-app-soumyajitd2000.netlify.app/)
 
 ## My process
