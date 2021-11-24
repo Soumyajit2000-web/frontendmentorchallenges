@@ -72,6 +72,5 @@ I learned to use React JS library to develop front-end web applications. I learn
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Soumyajit Das]()
+- Frontend Mentor - [@Soumyajit2000-web](https://www.frontendmentor.io/profile/Soumyajit2000-web)
