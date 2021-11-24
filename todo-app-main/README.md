@@ -33,7 +33,17 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+- Desktop-Dark
+![](https://soumyajit2000-web.github.io/frontendmentorchallenges/todo-app-main/Screenshots/screenshot-todo-app-dekstop-dark.jpg)
+
+- Desktop-Light
+![](https://soumyajit2000-web.github.io/frontendmentorchallenges/todo-app-main/Screenshots/screenshot-todo-app-desktop-light.jpg)
+
+- Mobile-Dark
+![](https://soumyajit2000-web.github.io/frontendmentorchallenges/todo-app-main/Screenshots/screenshot-todo-app-mobile-dark.jpg)
+
+- Mobile-Light
+![](https://soumyajit2000-web.github.io/frontendmentorchallenges/todo-app-main/Screenshots/screenshot-todo-app-mobile-light.jpg)
 
 
 
